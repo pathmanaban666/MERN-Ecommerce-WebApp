@@ -1,5 +1,5 @@
 # 🛒 PrimeCart E-Commerce Web Application
-A full-featured e-commerce web application built using the **MERN Stack** (MongoDB, Express, React, Node.js). 
+A full-featured E-commerce web application built using the **MERN Stack** (MongoDB, Express, React, Node.js). 
 
 ---
 
@@ -20,33 +20,45 @@ A full-featured e-commerce web application built using the **MERN Stack** (Mongo
 
 ---
 
-## 🧪 To Run My Project on Your Computer
+# 🧪 To Run My Project on Your Computer
 
-### 1. Clone the Repository
+## 1. Clone the Repository
 
-Open the terminal:
+Open the terminal and run:
+
+```bash
 git clone https://github.com/pathmanaban666/MERN-Ecommerce-WebApp.git
 cd MERN-Ecommerce-WebApp
+```
 
-### 2. Backend Setup
+## 2. Backend Setup
+
+```bash
+cd Backend
+npm install
+```
+Update the .env file with the configurations for your development server.
+
+```bash
+npm start
+```
+
+The backend will be running on your computer at the specified port.
+
+## 3. Frontend Setup
+
+Open a new terminal and run:
+
+```
+cd Frontend
+npm install
+```
 
 Update the .env file with the configurations for your development server.
 
-Open the terminal:
-cd backend
-npm install
+```bash
 npm start
+```
 
-Backend will be running on your computer at the specified port.
-
-### 3. Frontend Setup
-
-Update the .env file with the configurations for your development server.
-
-Open a new terminal:
-cd frontend
-npm install
-npm start
-
-Frontend will be running on your computer at the specified port.
+The frontend will be running on your computer at the specified port.
 
